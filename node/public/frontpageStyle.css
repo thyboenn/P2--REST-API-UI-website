@@ -1,0 +1,16 @@
+.checkbox {
+    list-style-type: none;
+}
+
+.box {
+    margin-top: 10px;
+}
+
+.inputBox {
+    width: 175px;
+}
+
+.btnSubmit {
+    width: 175px;
+    margin-top: 15px;
+}

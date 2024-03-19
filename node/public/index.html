@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Project</title>
+</head>
+
+<body>
+    <h1>P2 API-chainer</h1>
+    <script type="module" src="script.mjs" defer> </script>
+
+    <div id="frontpageInfo"></div>
+
+    <!-- <div class>
+        <div style="float: right; text-align: right;">
+            <form action="">
+                <label for="API key" class="text-accent">Key:</label>
+                <input type="text" id="key" name="Key" value="">
+            </form>
+
+            <form action="">
+                <label for="API Token" class="text-accent">Token:</label>
+                <input type="text" id="Token" name="Token" value="">
+            </form>
+            <div>
+                <input type="submit" id="webhooks">
+            </div>
+        </div>
+    </div> -->
+    <br><br><br>
+
+<div id="timeNotification" class="hidden" >0</div>
+
+
+
+
+    <div class="p-box">
+        <div class="container">
+            <header class="header">
+                <!--Live Filter Stuff-->
+                <h4 class="title">Live User Filter</h4>
+                <small class="subtitle">Search for Term</small>
+                <input type="text" id="filter" placeholder="Search">
+            </header>
+
+            <ul id="termlist" class="term-list">
+                <li>
+                    <h3>Loading...</h3>
+                </li>
+            </ul>
+        </div>
+
+        <div id="propertyInputs" class="propertyInputs">
+        </div>
+        <!--Copy of Live Filter-->
+
+        <div class="container2">
+            <header class="header2">
+                <h4 class="title2">Live User Filter</h4>
+                <small class="subtitle2">Search for Term</small>
+                <input type="text" id="filter2" placeholder="Search">
+            </header>
+            <ul id="secondaryTermList" class="term-list">
+
+            </ul>
+        </div>
+        <!--grid-->
+        <div id="boxChoiceDiv" class="boxChoiceDiv">
+            <form>
+                <button id="addrow" type="button">Add another row</button>
+                <br>
+                <select name="boxChoice" id="boxChoice"></select>
+                <br>
+                <button id="submitBox" type="button">Submit</button>
+            </form>
+        </div>
+        <div id="gridSubmit" class="gridSubmit">
+            <button id="gridSubmitBtn" type="button">Execute Grid</button>
+        </div>
+
+        <div class="grid-container" id="grid-container"></div>
+        <div id="mytabs" class="mytabs"></div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- M I S -->
+<!-- <li> -->
+<!--<img src="https://randomuser.me/api/portraits/men/31.jpg" alt="Sara">-->
+<!-- <div class="term">
+                    <h4>Read More Read Less Button</h4>
+                    <p>Text <span id="dots">...</span></p>
+                    <button onclick="extendmenu()" id="readMoreButton">Read More</button>
+                    <script>
+                        function extendmenu() {
+                            var dots = document.getElementById("dots");
+                            var moreText = document.getElementById("extendedtest");
+                            var btnText = document.getElementById("readMoreButton");
+
+                            if (dots.style.display === "none") {
+                                dots.style.display = "inline";
+                                btnText.innerHTML = "Read more";
+                                moreText.style.display = "none";
+                            } else {
+                                dots.style.display = "none";
+                                btnText.innerHTML = "Read less";
+                                moreText.style.display = "inline";
+                            }
+                        }
+                    </script>
+                    <div class="extendedbox" id="extendedtest">
+                       <p>Stuff1</p>
+                       <button id="property_1">knap 1<br></button>
+                       <p>Stuff2</p> 
+                       <button id="property_2">knap 2</button>
+                       <p>Stuff3</p>
+                       <button id="property_3">knap 3</button>
+                    </div>
+                </div>
+            </li>-->
